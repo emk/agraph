@@ -19,4 +19,5 @@ specification = Gem::Specification.new do |specification|
   specification.add_dependency "transport", ">= 1.0.0"
   specification.add_development_dependency "rspec", ">= 2"
   specification.add_development_dependency "reek", ">= 1.2"
+  specification.add_development_dependency "rake", ">= 0.8.7"
 end

@@ -1,6 +1,7 @@
 require 'rubygems'
-gem 'rspec', '>= 2'
-require 'rspec'
+require 'bundler'
+Bundler.setup(:default, :development)
+
 require 'transport/spec'
 
 require File.join(File.dirname(__FILE__), "..", "lib", "allegro_graph")
